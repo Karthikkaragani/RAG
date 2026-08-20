@@ -4,7 +4,12 @@ from ingestion import extract_document
 from cleaning import clean_documents
 from structure import detect_structure
 from chunking import create_semantic_chunks
-from embeddings import EmbeddingModel, create_embeddings
+from embeddings import (
+    EmbeddingModel,
+    create_embeddings
+)
+from vector_store import VectorStore
+from retriever import Retriever
 
 
 # ============================================================
@@ -24,7 +29,9 @@ st.set_page_config(
 
 st.title("📚 RAG From Scratch")
 
-st.header("Phase 1 — Document Ingestion")
+st.header(
+    "End-to-End RAG Pipeline"
+)
 
 
 # ============================================================
@@ -43,6 +50,31 @@ embedding_model = load_embedding_model()
 
 
 # ============================================================
+# LOAD VECTOR STORE
+# ============================================================
+
+@st.cache_resource
+def load_vector_store():
+
+    return VectorStore(
+        storage_dir="vector_db"
+    )
+
+
+vector_store = load_vector_store()
+
+
+# ============================================================
+# CREATE RETRIEVER
+# ============================================================
+
+retriever = Retriever(
+    vector_store=vector_store,
+    embedding_model=embedding_model
+)
+
+
+# ============================================================
 # FILE UPLOAD
 # ============================================================
 
@@ -58,7 +90,7 @@ uploaded_file = st.file_uploader(
 
 
 # ============================================================
-# PROCESS DOCUMENT
+# DOCUMENT PROCESSING
 # ============================================================
 
 if uploaded_file is not None:
@@ -84,6 +116,7 @@ if uploaded_file is not None:
         f"{len(extracted_documents)}"
     )
 
+
     # ========================================================
     # STEP 2 — CLEANING
     # ========================================================
@@ -100,8 +133,9 @@ if uploaded_file is not None:
         "Text cleaning completed."
     )
 
+
     # ========================================================
-    # STEP 3 — STRUCTURE DETECTION
+    # STEP 3 — DOCUMENT STRUCTURE
     # ========================================================
 
     st.subheader(
@@ -130,6 +164,7 @@ if uploaded_file is not None:
         if unit["type"] == "list_item"
     )
 
+
     col1, col2, col3 = st.columns(3)
 
     with col1:
@@ -153,6 +188,7 @@ if uploaded_file is not None:
             list_items
         )
 
+
     # ========================================================
     # STEP 4 — SEMANTIC CHUNKING
     # ========================================================
@@ -169,49 +205,44 @@ if uploaded_file is not None:
         step=0.05
     )
 
+
     semantic_chunks = create_semantic_chunks(
         structured_documents,
         embedding_model.model,
         threshold
     )
 
+
     st.write(
         f"Generated chunks: "
         f"{len(semantic_chunks)}"
     )
 
+
     # ========================================================
-    # DISPLAY SEMANTIC CHUNKS
+    # DISPLAY CHUNKS
     # ========================================================
 
-    for chunk in semantic_chunks:
+    with st.expander(
+        "View Semantic Chunks"
+    ):
 
-        chunk_id = chunk["chunk_id"]
+        for chunk in semantic_chunks:
 
-        chunk_text = chunk["text"]
-
-        metadata = chunk["metadata"]
-
-        with st.expander(
-            f"Chunk {chunk_id} — "
-            f"{metadata.get('chunk_type', 'unknown')}"
-        ):
-
-            st.write(
-                "### Text"
+            st.markdown(
+                f"### Chunk {chunk['chunk_id']}"
             )
 
             st.write(
-                chunk_text
-            )
-
-            st.write(
-                "### Metadata"
+                chunk["text"]
             )
 
             st.json(
-                metadata
+                chunk["metadata"]
             )
+
+            st.divider()
+
 
     # ========================================================
     # STEP 5 — FINAL EMBEDDINGS
@@ -221,50 +252,45 @@ if uploaded_file is not None:
         "5. Final Embeddings"
     )
 
+
     embedded_chunks = create_embeddings(
         semantic_chunks,
         embedding_model
     )
+
 
     st.write(
         f"Generated embeddings for "
         f"{len(embedded_chunks)} chunks."
     )
 
-    # ========================================================
-    # DISPLAY EMBEDDINGS
-    # ========================================================
 
-    for chunk in embedded_chunks:
+    if embedded_chunks:
+
+        embedding_dimension = len(
+            embedded_chunks[0]["embedding"]
+        )
+
+        st.write(
+            f"Embedding dimension: "
+            f"{embedding_dimension}"
+        )
+
+
+        # Show first embedding as an example
 
         with st.expander(
-            f"Embedding — Chunk "
-            f"{chunk['chunk_id']}"
+            "View Sample Embedding"
         ):
 
             st.write(
-                "### Text"
+                "Chunk ID:",
+                embedded_chunks[0]["chunk_id"]
             )
 
             st.write(
-                chunk["text"]
-            )
-
-            st.write(
-                "### Metadata"
-            )
-
-            st.json(
-                chunk["metadata"]
-            )
-
-            st.write(
-                "### Embedding Information"
-            )
-
-            st.write(
-                f"Embedding dimension: "
-                f"{len(chunk['embedding'])}"
+                "Embedding dimension:",
+                embedding_dimension
             )
 
             st.write(
@@ -272,22 +298,168 @@ if uploaded_file is not None:
             )
 
             st.write(
-                chunk["embedding"][:10]
+                embedded_chunks[0][
+                    "embedding"
+                ][:10]
             )
 
+
     # ========================================================
-    # FINAL DATA
+    # STEP 6 — VECTOR STORE
     # ========================================================
 
     st.subheader(
-        "Final Embedded Documents"
+        "6. Vector Store"
     )
 
-    st.write(
-        "These objects are now ready to be "
-        "stored in a vector database."
-    )
 
-    st.json(
+    vector_store.add_documents(
         embedded_chunks
     )
+
+
+    st.success(
+        "Vectors stored successfully."
+    )
+
+
+    st.write(
+        f"Total vectors stored: "
+        f"{vector_store.count()}"
+    )
+
+
+    if vector_store.vectors is not None:
+
+        st.write(
+            f"Vector matrix shape: "
+            f"{vector_store.vectors.shape}"
+        )
+
+
+    # ========================================================
+    # VIEW VECTOR STORE
+    # ========================================================
+
+    with st.expander(
+        "View Vector Store"
+    ):
+
+        if vector_store.vectors is not None:
+
+            st.write(
+                "Stored vector matrix:"
+            )
+
+            st.write(
+                vector_store.vectors
+            )
+
+            st.write(
+                "Stored documents:"
+            )
+
+            st.json(
+                vector_store.documents
+            )
+
+
+# ============================================================
+# STEP 7 — RETRIEVAL
+# ============================================================
+
+st.subheader(
+    "7. Dense Retrieval"
+)
+
+
+query = st.text_input(
+    "Ask a question about your documents"
+)
+
+
+top_k = st.slider(
+    "Number of chunks to retrieve (Top-K)",
+    min_value=1,
+    max_value=10,
+    value=3
+)
+
+
+score_threshold = st.slider(
+    "Similarity Score Threshold",
+    min_value=0.0,
+    max_value=1.0,
+    value=0.0,
+    step=0.05
+)
+
+
+# ============================================================
+# PERFORM RETRIEVAL
+# ============================================================
+
+if query:
+
+    if vector_store.count() == 0:
+
+        st.warning(
+            "No vectors are stored yet. "
+            "Please upload a document first."
+        )
+
+    else:
+
+        results = retriever.retrieve(
+            query=query,
+            top_k=top_k,
+            score_threshold=score_threshold
+        )
+
+
+        st.write(
+            f"Retrieved {len(results)} chunks."
+        )
+
+
+        # ====================================================
+        # DISPLAY RETRIEVAL RESULTS
+        # ====================================================
+
+        for rank, result in enumerate(
+            results,
+            start=1
+        ):
+
+            st.markdown(
+                f"### Rank {rank}"
+            )
+
+
+            st.write(
+                f"Similarity Score: "
+                f"{result['score']:.4f}"
+            )
+
+
+            st.write(
+                "#### Retrieved Chunk"
+            )
+
+
+            st.write(
+                result["text"]
+            )
+
+
+            st.write(
+                "#### Metadata"
+            )
+
+
+            st.json(
+                result["metadata"]
+            )
+
+
+            st.divider()

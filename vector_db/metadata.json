@@ -1,0 +1,742 @@
+[
+    {
+        "chunk_id": 0,
+        "text": "Arshit Shukla ♂phone8957905633✉shuklaarshit@gmail.com/linkedinlinkedin/githubgithub Professional Experience T ata Consultancy Services (TCS)Feb 2025 – Present GenAI & Python Developer Hyderabad, T elangana",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 1,
+        "text": "Developed an AI-driven Root Cause Analysis (RCA) platformfor the OpenAirInterface 5G codebase to ﬁx code",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "list_item"
+        }
+    },
+    {
+        "chunk_id": 2,
+        "text": "issues based on error logs, reducing manual debugging by35%.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 3,
+        "text": "Engineered aContextual-RAG (CRAG) pipeline using FAISSand semantic embeddings to ground LLM outputs.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 4,
+        "text": "Improved precision by22%by implementing a custom reranking logicand a validation layer using semantic similarity to ﬁlter hallucinations in real-time.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 5,
+        "text": "Developed a multi-agent 5G Code Generation systemusingLangGraph and MCP,achievingnear-total automation.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "list_item"
+        }
+    },
+    {
+        "chunk_id": 6,
+        "text": "Engineered aGraph-RAGengine using FAISS and Knowledge Graphs for iterative IE expansion across ETSI speciﬁcations.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 7,
+        "text": "Integrated a self-learning session ﬂow to interactively resolve ambiguities and automated repo-level validation to ensure memory safety and protocol compliance.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 8,
+        "text": "Implemented an agentic Wi-Fi test automation frameworkusing state-machine-based orchestration to track",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "list_item"
+        }
+    },
+    {
+        "chunk_id": 9,
+        "text": "coverage (RTM) using SQLite for eﬃcient knowledge base storage.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 10,
+        "text": "Boosted functional test coverage by28%by utilizing autonomous agents to synthesize and execute missing edge-case test scenarios.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 11,
+        "text": "Fine-tuned a T5-small (60M) Encoder-Decoder T ransformerfor x86 to ARM assembly translation usingHugging",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "list_item"
+        }
+    },
+    {
+        "chunk_id": 12,
+        "text": "Face and PyT orch.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 13,
+        "text": "Implemented full-parameter ﬁne-tuning withAdamWand teacher forcing to map instruction sets.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 14,
+        "text": "Evaluated model performance usingBLEU scoresto ensure structural and token-level translation accuracy.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 15,
+        "text": "Engineered asynchronous REST APIs usingFastAPIto expose statefulLangGraphpipelines and multi-agent",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "list_item"
+        }
+    },
+    {
+        "chunk_id": 16,
+        "text": "workﬂows across all internal GenAI projects.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 17,
+        "text": "Project Edge-Optimized Plant Disease Detection Pipeline—Python, T ensorFlow Lite, MobileNetV2, FastAPI",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 18,
+        "text": "Engineered a real-time image classiﬁcation pipeline usingMobileNetV2andT ransfer Learning, achieving sub-100ms",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "list_item"
+        }
+    },
+    {
+        "chunk_id": 19,
+        "text": "inference latency for edge-based disease detection.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 20,
+        "text": "Optimized deployment viaPost-T raining Quantization (TFLite), reducing model size by 4x while maintaining 92%",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "list_item"
+        }
+    },
+    {
+        "chunk_id": 21,
+        "text": "precision, and deployed via a high-performanceFastAPImicroservice.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 22,
+        "text": "Education Madan Mohan Malaviya University of T echnologyMay 2024 Bachelor of T echnology in Electronics and Communication (CGPA: 8.6 / 10.00) Gorakhpur, Uttar Pradesh T echnical Skills Languages: Python (Advanced), SQL (SQLite, PostgreSQL), C++ GenAI & LLM Orchestration: Retrieval-Augmented Generation (RAG), GraphRAG, LangChain, LangGraph (Stateful Agents), Multi-Agent Systems, Agentic Workﬂows, Model Context Protocol (MCP), Semantic Validation Deep Learning & NLP: Transformer Architectures, T5 Transformer, Full-Parameter Fine-tuning, Seq2Seq Modeling, Neural Code Translation, CNNs, Transfer Learning, Hugging Face Transformers AI Evaluation & MLOps: BLEU Score, Semantic Similarity Scoring, RAG Evaluation, Model Quantization (TFLite), Performance Benchmarking, PyT orch, T ensorFlow/Keras Vector Search & Retrieval: FAISS (HNSW, IndexFlatL2), Semantic Embeddings, Knowledge Graph, Reranking Pipelines, Vector Database Design, High-Dimensional Data Retrieval, Metadata Filtering Engineering & Deployment: FastAPI (Asynchronous Programming), Pydantic, Serper API, REST API Design, Docker, Git/GitHub Achievements",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 23,
+        "text": "Solved over1,100+ problemson LeetCode and GeeksforGeeks, demonstrating a deep mastery of DSA",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "list_item"
+        }
+    },
+    {
+        "chunk_id": 24,
+        "text": "Developed a codebase analysis tool usingLangGraph and MCP; architecture was recognized as the top solution for",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "list_item"
+        }
+    },
+    {
+        "chunk_id": 25,
+        "text": "internal GenAI weekly Hackathon at TCS for its innovative use of stateful agentic loops.",
+        "metadata": {
+            "source": "Arshit_Shukla_Resume (1).pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 0,
+        "text": "Karagani Karthik ♂phone+91-7989860866 —✉karaganikarthik30@gmail.com—/linkedinlinkedin—/githubgithub Professional Experience Tata Consultancy Services (TCS) April 2025 – Present GenAI & Python Developer Hyderabad, T elangana •Developed anAI-driven Root Cause Analysis (RCA)platform for the OpenAirInterface 5G codebase to identify and resolve code issues from error logs, reducing manual debugging eﬀort by35%.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 1,
+        "text": "Engineered aContextual-RAG (CRAG)pipeline using FAISS and semantic embeddings to ground LLM responses.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 2,
+        "text": "•Improved RCA precision by22%through custom reranking logic and a semantic-similarity validation layer that ﬁltered hallucinated LLM outputs in real time.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 3,
+        "text": "Developed amulti-agent 5G code generation systemusing LangGraph and MCP for automated code generation, validation, and repository-level analysis.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 4,
+        "text": "•Engineered aGraph-RAGpipeline using FAISS and Knowledge Graphs for iterative information extraction across ETSI speciﬁcations.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 5,
+        "text": "Implemented self-learning session ﬂows to resolve requirements ambiguities and automated repository validation for memory safety and protocol compliance.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 6,
+        "text": "•Engineeredasynchronous REST APIs using FastAPIto expose stateful LangGraph pipelines and multi-agent workﬂows across internal GenAI applications, integrating LLM-based services through modular API architectures.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 7,
+        "text": "•Worked withAMD Quarkacross multiple AI model variants and architectures, developing Python automation scripts to streamline model conversion, quantization, optimization, and evaluation workﬂows.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 8,
+        "text": "•QuantizedFP32 models into FP8 and INT4 variantsusing AMD Quark to reduce computational and memory requirements while maintaining model quality.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 9,
+        "text": "Evaluated quantized variants usingperplexityand model-quality metrics to identify suitable accuracy-eﬃciency trade-oﬀs.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 10,
+        "text": "•Generated and evaluatedhybrid and fusion modelsfrom quantized model variants and benchmarked performance usingMMLU, KV-cache, latency, throughput, and resource utilizationmetrics to analyze model eﬃciency and inference performance.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 11,
+        "text": "•Created structuredtest cases and evaluation scenariosto validate model outputs and performance across diﬀerent conﬁgurations, analyzing accuracy, latency, resource utilization, and benchmark results to identify regressions and optimal model variants.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 12,
+        "text": "Project FUSA – HARA Analysis GenAI POCLangChain, LLMs, Python, ISO 26262 •Designed and developed aGenerative AI-powered HARA analysis toolusing Python, LangChain, and LLMs to automate Hazard Analysis and Risk Assessment in compliance withISO 26262 functional safety standards.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 13,
+        "text": "•Built anagentic AI workﬂowfor autonomous hazard identiﬁcation, ASIL rating assignment, and structured Excel report generation, reducing manual eﬀort in safety analysis workﬂows.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 14,
+        "text": "•ImplementedAI guardrails, output validation, human-in-the-loop review, prompt engineering, and evaluation checksto minimize hallucinations and improve the reliability and consistency of AI-generated safety analysis outputs.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 15,
+        "text": "Education Vishnu Institute of T echnology May 2024 Bachelor of T echnology in Computer Science and Business Systems (CGPA: 9.02 / 10.00) Bhimavaram, Andhra Pradesh T echnical Skills Languages:Python (Advanced), SQL (SQLite, PostgreSQL), Java GenAI & LLM Orchestration:Generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), GraphRAG, LangChain, LangGraph (Stateful Agents), Multi-Agent Systems, Agentic AI, Agentic Workﬂows, Model Context Protocol (MCP), Prompt Engineering, AI Agents Machine Learning & NLP:Machine Learning, Deep Learning, NLP, Transformer Architectures, T5 Transformer, Seq2Seq Modeling, Full-Parameter Fine-Tuning, CNNs, Transfer Learning, Hugging Face Transformers LLM Evaluation & Optimization:LLM Evaluation, Semantic Similarity, AI Guardrails, Model Quantization, Perplexity, MMLU, KV-Cache, Performance Benchmarking, Model Optimization, Latency and Throughput Analysis Vector Search & Retrieval:FAISS, Semantic Embeddings, Knowledge Graphs, Reranking Pipelines, Vector Database Design, High-Dimensional Data Retrieval, Metadata Filtering Engineering & Deployment:FastAPI, Asynchronous Programming, Pydantic, REST APIs, API Integration, Serper API, Git/GitHub, Jenkins, CI/CD Pipelines Achievements •Developed acodebase analysis solution using LangGraph and MCPthat was recognized as theT op Solutionin the internal TCS GenAI Weekly Hackathon for its innovative use of stateful agentic loops and autonomous code-analysis workﬂows.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 0,
+        "text": "Karagani Karthik ♂phone+91-7989860866 —✉karaganikarthik30@gmail.com—/linkedinlinkedin—/githubgithub Professional Experience Tata Consultancy Services (TCS) April 2025 – Present GenAI & Python Developer Hyderabad, T elangana •Developed anAI-driven Root Cause Analysis (RCA)platform for the OpenAirInterface 5G codebase to identify and resolve code issues from error logs, reducing manual debugging eﬀort by35%.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 1,
+        "text": "Engineered aContextual-RAG (CRAG)pipeline using FAISS and semantic embeddings to ground LLM responses.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 2,
+        "text": "•Improved RCA precision by22%through custom reranking logic and a semantic-similarity validation layer that ﬁltered hallucinated LLM outputs in real time.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 3,
+        "text": "Developed amulti-agent 5G code generation systemusing LangGraph and MCP for automated code generation, validation, and repository-level analysis.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 4,
+        "text": "•Engineered aGraph-RAGpipeline using FAISS and Knowledge Graphs for iterative information extraction across ETSI speciﬁcations.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 5,
+        "text": "Implemented self-learning session ﬂows to resolve requirements ambiguities and automated repository validation for memory safety and protocol compliance.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 6,
+        "text": "•Engineeredasynchronous REST APIs using FastAPIto expose stateful LangGraph pipelines and multi-agent workﬂows across internal GenAI applications, integrating LLM-based services through modular API architectures.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 7,
+        "text": "•Worked withAMD Quarkacross multiple AI model variants and architectures, developing Python automation scripts to streamline model conversion, quantization, optimization, and evaluation workﬂows.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 8,
+        "text": "•QuantizedFP32 models into FP8 and INT4 variantsusing AMD Quark to reduce computational and memory requirements while maintaining model quality.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 9,
+        "text": "Evaluated quantized variants usingperplexityand model-quality metrics to identify suitable accuracy-eﬃciency trade-oﬀs.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 10,
+        "text": "•Generated and evaluatedhybrid and fusion modelsfrom quantized model variants and benchmarked performance usingMMLU, KV-cache, latency, throughput, and resource utilizationmetrics to analyze model eﬃciency and inference performance.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 11,
+        "text": "•Created structuredtest cases and evaluation scenariosto validate model outputs and performance across diﬀerent conﬁgurations, analyzing accuracy, latency, resource utilization, and benchmark results to identify regressions and optimal model variants.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 12,
+        "text": "Project FUSA – HARA Analysis GenAI POCLangChain, LLMs, Python, ISO 26262 •Designed and developed aGenerative AI-powered HARA analysis toolusing Python, LangChain, and LLMs to automate Hazard Analysis and Risk Assessment in compliance withISO 26262 functional safety standards.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 13,
+        "text": "•Built anagentic AI workﬂowfor autonomous hazard identiﬁcation, ASIL rating assignment, and structured Excel report generation, reducing manual eﬀort in safety analysis workﬂows.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 14,
+        "text": "•ImplementedAI guardrails, output validation, human-in-the-loop review, prompt engineering, and evaluation checksto minimize hallucinations and improve the reliability and consistency of AI-generated safety analysis outputs.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 15,
+        "text": "Education Vishnu Institute of T echnology May 2024 Bachelor of T echnology in Computer Science and Business Systems (CGPA: 9.02 / 10.00) Bhimavaram, Andhra Pradesh T echnical Skills Languages:Python (Advanced), SQL (SQLite, PostgreSQL), Java GenAI & LLM Orchestration:Generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), GraphRAG, LangChain, LangGraph (Stateful Agents), Multi-Agent Systems, Agentic AI, Agentic Workﬂows, Model Context Protocol (MCP), Prompt Engineering, AI Agents Machine Learning & NLP:Machine Learning, Deep Learning, NLP, Transformer Architectures, T5 Transformer, Seq2Seq Modeling, Full-Parameter Fine-Tuning, CNNs, Transfer Learning, Hugging Face Transformers LLM Evaluation & Optimization:LLM Evaluation, Semantic Similarity, AI Guardrails, Model Quantization, Perplexity, MMLU, KV-Cache, Performance Benchmarking, Model Optimization, Latency and Throughput Analysis Vector Search & Retrieval:FAISS, Semantic Embeddings, Knowledge Graphs, Reranking Pipelines, Vector Database Design, High-Dimensional Data Retrieval, Metadata Filtering Engineering & Deployment:FastAPI, Asynchronous Programming, Pydantic, REST APIs, API Integration, Serper API, Git/GitHub, Jenkins, CI/CD Pipelines Achievements •Developed acodebase analysis solution using LangGraph and MCPthat was recognized as theT op Solutionin the internal TCS GenAI Weekly Hackathon for its innovative use of stateful agentic loops and autonomous code-analysis workﬂows.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 0,
+        "text": "Karagani Karthik ♂phone+91-7989860866 —✉karaganikarthik30@gmail.com—/linkedinlinkedin—/githubgithub Professional Experience Tata Consultancy Services (TCS) April 2025 – Present GenAI & Python Developer Hyderabad, T elangana •Developed anAI-driven Root Cause Analysis (RCA)platform for the OpenAirInterface 5G codebase to identify and resolve code issues from error logs, reducing manual debugging eﬀort by35%.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 1,
+        "text": "Engineered aContextual-RAG (CRAG)pipeline using FAISS and semantic embeddings to ground LLM responses.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 2,
+        "text": "•Improved RCA precision by22%through custom reranking logic and a semantic-similarity validation layer that ﬁltered hallucinated LLM outputs in real time.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 3,
+        "text": "Developed amulti-agent 5G code generation systemusing LangGraph and MCP for automated code generation, validation, and repository-level analysis.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 4,
+        "text": "•Engineered aGraph-RAGpipeline using FAISS and Knowledge Graphs for iterative information extraction across ETSI speciﬁcations.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 5,
+        "text": "Implemented self-learning session ﬂows to resolve requirements ambiguities and automated repository validation for memory safety and protocol compliance.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 6,
+        "text": "•Engineeredasynchronous REST APIs using FastAPIto expose stateful LangGraph pipelines and multi-agent workﬂows across internal GenAI applications, integrating LLM-based services through modular API architectures.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 7,
+        "text": "•Worked withAMD Quarkacross multiple AI model variants and architectures, developing Python automation scripts to streamline model conversion, quantization, optimization, and evaluation workﬂows.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 8,
+        "text": "•QuantizedFP32 models into FP8 and INT4 variantsusing AMD Quark to reduce computational and memory requirements while maintaining model quality.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 9,
+        "text": "Evaluated quantized variants usingperplexityand model-quality metrics to identify suitable accuracy-eﬃciency trade-oﬀs.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 10,
+        "text": "•Generated and evaluatedhybrid and fusion modelsfrom quantized model variants and benchmarked performance usingMMLU, KV-cache, latency, throughput, and resource utilizationmetrics to analyze model eﬃciency and inference performance.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 11,
+        "text": "•Created structuredtest cases and evaluation scenariosto validate model outputs and performance across diﬀerent conﬁgurations, analyzing accuracy, latency, resource utilization, and benchmark results to identify regressions and optimal model variants.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 12,
+        "text": "Project FUSA – HARA Analysis GenAI POCLangChain, LLMs, Python, ISO 26262 •Designed and developed aGenerative AI-powered HARA analysis toolusing Python, LangChain, and LLMs to automate Hazard Analysis and Risk Assessment in compliance withISO 26262 functional safety standards.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 13,
+        "text": "•Built anagentic AI workﬂowfor autonomous hazard identiﬁcation, ASIL rating assignment, and structured Excel report generation, reducing manual eﬀort in safety analysis workﬂows.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 14,
+        "text": "•ImplementedAI guardrails, output validation, human-in-the-loop review, prompt engineering, and evaluation checksto minimize hallucinations and improve the reliability and consistency of AI-generated safety analysis outputs.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    },
+    {
+        "chunk_id": 15,
+        "text": "Education Vishnu Institute of T echnology May 2024 Bachelor of T echnology in Computer Science and Business Systems (CGPA: 9.02 / 10.00) Bhimavaram, Andhra Pradesh T echnical Skills Languages:Python (Advanced), SQL (SQLite, PostgreSQL), Java GenAI & LLM Orchestration:Generative AI, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), GraphRAG, LangChain, LangGraph (Stateful Agents), Multi-Agent Systems, Agentic AI, Agentic Workﬂows, Model Context Protocol (MCP), Prompt Engineering, AI Agents Machine Learning & NLP:Machine Learning, Deep Learning, NLP, Transformer Architectures, T5 Transformer, Seq2Seq Modeling, Full-Parameter Fine-Tuning, CNNs, Transfer Learning, Hugging Face Transformers LLM Evaluation & Optimization:LLM Evaluation, Semantic Similarity, AI Guardrails, Model Quantization, Perplexity, MMLU, KV-Cache, Performance Benchmarking, Model Optimization, Latency and Throughput Analysis Vector Search & Retrieval:FAISS, Semantic Embeddings, Knowledge Graphs, Reranking Pipelines, Vector Database Design, High-Dimensional Data Retrieval, Metadata Filtering Engineering & Deployment:FastAPI, Asynchronous Programming, Pydantic, REST APIs, API Integration, Serper API, Git/GitHub, Jenkins, CI/CD Pipelines Achievements •Developed acodebase analysis solution using LangGraph and MCPthat was recognized as theT op Solutionin the internal TCS GenAI Weekly Hackathon for its innovative use of stateful agentic loops and autonomous code-analysis workﬂows.",
+        "metadata": {
+            "source": "JP_resume.pdf",
+            "file_type": "pdf",
+            "page_number": 1,
+            "chunk_type": "paragraph"
+        }
+    }
+]
